@@ -20,6 +20,8 @@
 		430EFB7C1E15084500DC8229 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430EFB7B1E15084500DC8229 /* MainViewController.swift */; };
 		430EFB841E1648F300DC8229 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430EFB831E1648F300DC8229 /* HomeViewController.swift */; };
 		430EFB881E16540C00DC8229 /* UIBarBtnItem_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430EFB871E16540C00DC8229 /* UIBarBtnItem_extension.swift */; };
+		430EFB8A1E1B990500DC8229 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430EFB891E1B990500DC8229 /* PageTitleView.swift */; };
+		430EFB8C1E1B9BD000DC8229 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430EFB8B1E1B9BD000DC8229 /* common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		430EFB7B1E15084500DC8229 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 		430EFB831E1648F300DC8229 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		430EFB871E16540C00DC8229 /* UIBarBtnItem_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarBtnItem_extension.swift; sourceTree = "<group>"; };
+		430EFB891E1B990500DC8229 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		430EFB8B1E1B9BD000DC8229 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				430EFB861E1653EE00DC8229 /* extension */,
+				430EFB8B1E1B9BD000DC8229 /* common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -218,8 +223,8 @@
 		430EFB7F1E16487400DC8229 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				430EFB711E15072E00DC8229 /* Home.storyboard */,
 				430EFB831E1648F300DC8229 /* HomeViewController.swift */,
+				430EFB711E15072E00DC8229 /* Home.storyboard */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 		430EFB811E16489100DC8229 /* V */ = {
 			isa = PBXGroup;
 			children = (
+				430EFB891E1B990500DC8229 /* PageTitleView.swift */,
 			);
 			path = V;
 			sourceTree = "<group>";
@@ -395,6 +401,8 @@
 			files = (
 				430EFB3D1E14E8EF00DC8229 /* AppDelegate.swift in Sources */,
 				430EFB881E16540C00DC8229 /* UIBarBtnItem_extension.swift in Sources */,
+				430EFB8C1E1B9BD000DC8229 /* common.swift in Sources */,
+				430EFB8A1E1B990500DC8229 /* PageTitleView.swift in Sources */,
 				430EFB7C1E15084500DC8229 /* MainViewController.swift in Sources */,
 				430EFB841E1648F300DC8229 /* HomeViewController.swift in Sources */,
 			);
